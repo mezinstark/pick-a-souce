@@ -1,0 +1,40 @@
+.container{
+    margin-left: 80px;
+    margin-right: 80px;
+    /* display:flex;
+    justify-content: center; */
+}
+.header{
+ display: flex;
+ justify-content: center;
+ background-color: #fff;
+}
+.head-content span{
+    color:red;
+    /* justify-content: center; */
+}
+.head-content h1{
+    color: rgb(44, 44, 44);
+    font-size: 52px;
+    /* justify-content: center; */
+}
+.head-content p{
+    color:rgb(86, 90, 97);
+    font-size: 24px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.body-element button{
+    margin-top: 10px;
+    background-color: rgb(219, 106, 125);
+    box-shadow: 0 7px rgb(221, 81, 105);
+    border:none;
+}
+.body-element button:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
+}
